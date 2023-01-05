@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainHeader {
+  position: absolute;
+  transition: all 0.5s;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.mainHeadeWrapper {
+  width: 100%;
+  transition: all 0.2s;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.siteName {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 2.75em;
+}
+
+.sectionLinks {
+  display: flex;
+  list-style: none;
+}
+
+.sectionLinks li {
+  font-size: 1.2em;
+  margin-left: 1.75rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+}
+
+.sectionLinks a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sectionLinks a :visited {
+  color: #ffffff;
+}
+
+.sectionLinks a:hover {
+  color: #4d4fc1db;
+}
+
+.sectionLinks a:active {
+  color: "#3639d1ec";
+}

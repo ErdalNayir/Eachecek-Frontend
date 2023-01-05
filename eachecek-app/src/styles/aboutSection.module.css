@@ -1,0 +1,39 @@
+/* * {
+  padding: 0px;
+  border: 1px solid red;
+} */
+
+body {
+  max-width: 100%;
+}
+
+.aboutText {
+  margin-right: -200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutHeader {
+  margin-top: -100px;
+  font-size: 2em;
+}
+
+.aboutDesc {
+  font-size: 1.25em;
+  line-height: 1.8;
+}
+
+.aboutContainer {
+  margin-top: -60px;
+  margin-left: 10rem;
+  margin-left: 10rem;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutImg {
+  position: relative;
+  width: 60%;
+}
